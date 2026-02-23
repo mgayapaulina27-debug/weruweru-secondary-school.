@@ -1,0 +1,41 @@
+body{
+    --primary: rgb(119, 180, 234);
+    --dark: darkblue;
+    background-color: beige;
+}
+form{
+    background-color: rgb(119, 180, 234);
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+input{
+    background-color: rgb(255,255,255);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+}
+h3{
+    color: black;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.descriptions{
+    background-color: rgb(119, 180, 234);
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        footer {
+            background-color: var(--dark);
+            color: var(--primary);
+            text-align: center;
+        }
+    
+        footer p {
+            color: var(--primary);
+            padding: 5px;
+        }
